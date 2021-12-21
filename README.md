@@ -1,6 +1,6 @@
 # New environment
-python3 -m venv sousan-docker
-pip install -r ./requirements.txt
+- python3 -m venv sousan-docker
+- pip install -r ./requirements.txt
 
 # After adding new dependencies
 pip freeze > requirements.txt
