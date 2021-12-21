@@ -1,5 +1,5 @@
 # Base image
-FROM python:3.9.9-bullseye
+FROM python:3.10.1-bullseye
 
 # Set the working directory INSIDE of the linux machine
 WORKDIR /usr/src/app
