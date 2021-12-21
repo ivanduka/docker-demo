@@ -2,6 +2,7 @@
 
 - python3 -m venv sousan-docker
 - pip install -r ./requirements.txt
+- copy `.env.example` to `.env` and fill in the Azure Blob Storage Key
 
 # After adding new dependencies
 

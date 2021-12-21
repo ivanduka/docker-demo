@@ -1,2 +1,3 @@
 sousan-docker
 *.csv
+.env
