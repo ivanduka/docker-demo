@@ -22,7 +22,7 @@ docker run -env 'FILE_ID=4194210' --env 'AZURE_CONNECTION_STRING=$$$YOUR_SECRET_
 
 (FILE_ID should be dynamically set in production to the target PDF's ID)
 
-- docker build . -t docker.io/ivanduka/bar:1 && docker run --env 'FILE_ID=4194210' --env 'AZURE_CONNECTION_STRING=$$$YOUR_SECRET_CONNECTION_STRING$$$' docker.io/ivanduka/bar:1
+- docker build . -t docker.io/ivanduka/bar:1 ; docker run --env 'FILE_ID=4194210' --env 'AZURE_CONNECTION_STRING=$$$YOUR_SECRET_CONNECTION_STRING$$$' 'docker.io/ivanduka/bar:1'
 
 # When ready to 'publish' and use by others
 
